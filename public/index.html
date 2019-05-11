@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./css/index.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div class="container">
+            <h1>Estratégia dos 6 Potes</h1>
+            <div>
+                <label for="total">Total: R$</label>
+                <input type="number" id="total" step="any" autocomplete="off"/>
+            </div>
+            <div id="basicDiv">
+                <label for="basic">Necessidades Básicas: </label>
+                <output id="basic"></output>
+                <div>
+                    <div id="basicDisc">Descrição da parada</div>
+                </div>
+            </div>
+            <div>
+                <label for="entertainment">Entretenimento : </label>
+                <output id="entertainment"></output>
+            </div>
+            <div>
+                <label for="education">Educação: </label>
+                <output id="education"></output>
+            </div>
+            <div>
+                <label for="savings">Poupança: </label>
+                <output id="savings"></output>
+            </div>
+            <div>
+                <label for="fund">Reserva: </label>
+                <output id="fund"></output>
+            </div>
+            <div>
+                <label for="fight">Luta: </label>
+                <output id="fight"></output>
+            </div>
+
+            <div>
+                <label for="basicPercent">Necessidades Básicas: </label>
+                <input type="number" min="0" max="100" step="1" id="basicPercent"/>
+            </div>
+            <div>
+                <label for="entertainmentPercent">Entretenimento : </label>
+                <input type="number" min="0" max="100" step="1" id="entertainmentPercent"/>
+            </div>
+            <div>
+                <label for="educationPercent">Educação: </label>
+                <input type="number" min="0" max="100" step="1" id="educationPercent"/>
+            </div>
+            <div>
+                <label for="savingsPercent">Poupança: </label>
+                <input type="number" min="0" max="100" step="1" id="savingsPercent"/>
+            </div>
+            <div>
+                <label for="fundPercent">Reserva: </label>
+                <input type="number" min="0" max="100" step="1" id="fundPercent"/>
+            </div>
+            <div>
+                <label for="fightPercent">Luta: </label>
+                <input type="number" min="0" max="100" step="1" id="fightPercent"/>
+            </div>
+            <div>
+                <button type="button" id="reset">Resetar</button> 
+            </div>
+        </div>
+        <script src="./bundle.js" async defer></script>
+    </body>
+</html>
