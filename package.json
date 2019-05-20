@@ -16,6 +16,7 @@
   },
   "scripts": {
     "dev": "webpack-dev-server --mode=development",
+    "heroku-prebuild": "npm install --dev",
     "start": "webpack --mode=production"
   }
 }
